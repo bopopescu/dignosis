@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel</title>
+    <style>
+         body,html {
+             background-image: url("/static/images/images (1).jpg");
+             height: 80%;
+             font-family: Arial, Calibri, Impact;
+         }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+        background-color:#4CAF50;
+        width: 500px;
+        height: 500px;
+    }
+    </style>
+</head>
+<body>
+    <form action="/final" class="container" method="post">
+        <br>
+        <br>
+        <center>
+        <div class="container" align="center">
+              <center><br>
+              <br>
+              <br>
+              <h1>FILL THIS</h1>
+              <label for="pulse rate"><b>PULSE RATE</b></label>
+              <input type="text" placeholder="enter in range 1-10" name="pul">
+                 <br>
+                   <br>
+<br>
+
+              <label for="minimum bp"><b>MINIMUM BP</b></label>
+              <input type="text" placeholder="enter in range of 1-10" name="minbp">
+                  <br>
+                  <br>
+                   <br>
+<br>
+              <label for="maximum bp"><b>MAXIMUM BP</b></label>
+              <input type="text" placeholder="enter in range of 1-10" name="maxbp">
+                  <br>
+                  <br>
+                   <br>
+<br>
+
+              <label for="cough and cold"><b>COUGH AND COLD</b></label>
+              <input type="text" placeholder="enter in range of 1-10" name="cc">
+                 <br>
+                  <br>
+                   <br>
+<br>
+              <label for="Headache"><b>HEADACHE</b></label>
+              <input type="text" placeholder="enter in range of 1-10" name="headache">
+
+                 <br>
+                  <br>
+    <button type="submit">submit</button>
+              </center>
+        </div>
+            </center>
+          </form>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+/* Header/logo Title */
+.header {
+    background-image: url("/static/images/doctor2.jpeg");
+  padding: 80px;
+  text-align: center;
+  color: brown;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: aquamarine;
+}
+</style>
+</head>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">DOCTOR</a>
+  <div class="dropdown">
+    <button class="dropbtn">PATIENT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/regpat">REGISTRATION</a>
+      <a href="/logpat">LOGIN</a>
+    </div>
+  </div>
+</div>
+
+<div class="header">
+    <h1><b><em>Health Care</em></b></h1>
+</div>
+
+
+  <div class="side">
+      <h1><em><center>Here we are predicting disease from the symptoms</center></em></h1>
+      <img src="/static/images/6.jpg">
+    <p></p>
+      <h3><center><b>ABOUT</b></center></h3>
+    <p><center>Diagnostic testing is conducted to aid in the specificity diagnosis or detection of a disease. It is often used to confirm a particular diagnosis when a certain condition is suspected based on the subject's mutations and physical symptoms.</center></p>
+  </div>
+<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer-text">
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h4>Contact Us</h4>
+                            <ul class="contact-option">
+                                <li><i class="fa fa-envelope"></i> navneet.agarwal.97521@gmail.com</li>
+                                <li><i class="fa fa-clock-o"></i> Mon - Sat, 08 AM - 06 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+<div class="footer">
+    <a href="/loadm">ADMIN</a>
+</div>
+
+
+
+</body>
+</html>
